@@ -112,14 +112,53 @@ SWITCH(
 MarketCap_Sort = SUM('TopSectors'[Sum of MarketCap(Feb)])
 ```
 
-## Insights
-- **Banking and Telecoms sectors** were the biggest market movers.
-- **Smart Products Nigeria PLC had the highest percentage gain**, while **Union Dicon Salt Plc suffered the largest loss**.
-- **MTN Nigeria remained the dominant company** in terms of market capitalization.
+# 📊 Nigeria Stock Market Analysis (Jan - Feb 2025)
+
+## 🔍 Key Insights
+
+### 1️⃣ **Airtel Africa Emerges as the Most Valuable Company**
+- **Airtel Africa PLC (₦8.11T) overtook MTN Nigeria (₦5.55T)** as the largest telecom company by market cap.  
+- The **top five companies by market cap** in February 2025 were:  
+  1. **Airtel Africa PLC** – ₦8.11T  
+  2. **Dangote Cement PLC** – ₦8.10T  
+  3. **BUA Foods PLC** – ₦7.52T  
+  4. **MTN Nigeria Communications PLC** – ₦5.55T  
+  5. **Seplat Energy PLC** – ₦3.60T  
+
+### 2️⃣ **Smart Products Nigeria PLC Led Market Gains (+65%)**
+- **Top gainer:** Smart Products Nigeria PLC saw a **+65% surge**, signaling strong investor interest.  
+- **Other major gainers:** PZ Cussons Nigeria (+54%), UPDC PLC (+53%), and Eterna PLC (+52%).  
+- These stocks may have been driven by **positive earnings, corporate actions, or sector growth**.  
+
+### 3️⃣ **Union Dicon Salt PLC Had the Largest Market Cap Drop (-28%)**
+- **Union Dicon Salt PLC lost 28% of its market value**, making it the worst-performing stock.  
+- **Other major losers:** Eunisell Interlinked PLC (-27%), Learn Africa PLC (-27%), and University Press PLC (-19%).  
+- Declines in these stocks suggest **poor earnings, regulatory issues, or investor sell-offs**.  
+
+### 4️⃣ **Construction and Consumer Goods Were the Best-Performing Sectors**
+- **Sector market cap growth:**  
+  - **Construction/Real Estate**: **+153%**  
+  - **Consumer Goods**: **+143%**  
+  - **Agriculture**: **+88%**  
+  - **Industrial Goods**: **+72%**  
+- The **Financial Services sector grew by 59%**, while **ICT (14%) and Healthcare (2%) lagged behind**.  
+- **Natural Resources (-12%) was the only sector that declined**, indicating **weak investor confidence**.  
+
+### 5️⃣ **Market Trends Indicate Changing Investment Focus**
+- Investors are favoring **construction, consumer goods, and industrial stocks**, possibly due to **infrastructure spending and increased consumer demand**.  
+- **Financial services remain strong**, while **ICT and healthcare sectors underperformed expectations**.  
+
+---
+
+## 🎯 **Actionable Insights**
+✅ **Focus on high-growth sectors**: Construction, consumer goods, and industrial goods show strong momentum.  
+✅ **Investigate declining sectors**: Natural resources and services may be facing structural challenges.  
+✅ **Company-Specific Research**: Explore the fundamentals behind **Smart Products Nigeria PLC’s rise and Union Dicon Salt PLC’s drop**.  
+✅ **Macroeconomic Analysis**: Examine how **CBN policies, inflation, and fiscal measures** influenced investor sentiment.  
 
 
 
 ### Author
-**[Owadokun Oluwatobi Ezekiel]**  
+**Owadokun Oluwatobi Ezekiel**  
 
 This report showcases my expertise in **data analysis, Power BI reporting, and stock market insights**. By leveraging advanced data wrangling techniques, I have transformed raw data into a professional and impactful stock market analysis. 🚀
