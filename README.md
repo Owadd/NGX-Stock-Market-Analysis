@@ -25,7 +25,7 @@ Understanding stock market movements is essential for investors, policymakers, a
 
 ## Data Preparation
 ### Initial Dataset in Power Query (Before Cleaning)
-![Initial Dataset](path/to/initial_dataset.png)
+![Initial Dataset](path/to/initial dataset.png)
 
 ### Data Cleaning Process
 1. **Removed unnecessary columns** (e.g., Nominal Value, Shares Outstanding).
@@ -35,14 +35,11 @@ Understanding stock market movements is essential for investors, policymakers, a
 5. **Computed percentage changes** in market capitalization.
 
 ### Cleaned Dataset (Final View in Excel)
-![Cleaned Dataset](path/to/final_dataset.png)
+![Cleaned Dataset](path/to/cleaned dataset.png)
 
 ## Data Visualization
-### Sector Market Share (February 2025)
-![Sector Market Share](path/to/sector_market_share.png)
-
-### Company Performance Dashboard
-![Power BI Dashboard](path/to/dashboard_image.png)
+### Stock Market Analysis Dashboard
+![Power BI Dashboard](path/to/dashboard.jpg)
 
 ## Key Findings
 ### Top Companies by Market Cap (February 2025)
