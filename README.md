@@ -1,34 +1,51 @@
 # Nigeria Stock Market Analysis (Jan - Feb 2025)
 
-## Overview
-This project analyzes the performance of Nigeria's stock market between January and February 2025 using data from the Nigerian Exchange (NGX). The analysis focuses on market capitalization, sector performance, and top gainers/losers.
+## Introduction
+The Nigerian stock market is a vital indicator of the country’s economic strength and investor sentiment. This project provides an in-depth analysis of the Nigerian Exchange (NGX) performance from January to February 2025, highlighting key trends in market capitalization, sector performance, and top gainers and losers. The analysis utilizes data wrangling, Power BI visualizations, and DAX computations to extract meaningful insights.
 
-## Data Sources
-- **NGX Reports**: Downloaded from the NGX website
-  - **SHARES OUTSTANDING FOR 31-01-2025** (January report)
-  - **SHARES OUTSTANDING FOR 28-02-2025** (February report)
-- **Sector Data**: Extracted from an internal NGX analysis file
+## Problem Statement
+Understanding stock market movements is essential for investors, policymakers, and analysts. This study aims to:
+- Identify the **top companies by market capitalization** in February 2025.
+- Determine the **best and worst-performing stocks** based on market cap changes.
+- Analyze the **sectoral performance and market share** within NGX.
+- Provide actionable insights through **data visualizations**.
 
-## Objectives
-- Identify the **top companies by market cap** in February
-- Identify **companies with the least market cap**
-- Determine the **top gainers and losers** from January to February
-- Analyze the **best and worst performing sectors**
-- Compute each **sector's share of the total market cap**
+## Tools Used
+- **Microsoft Excel** (Data cleaning, transformations, and calculations)
+- **Power Query** (Data extraction and preprocessing)
+- **Power BI** (Data visualization and insights generation)
+- **DAX** (Advanced calculations and measures)
+
+## Skills Demonstrated
+- **Data Cleaning & Preprocessing**
+- **Data Analysis & Transformation**
+- **Data Visualization & Reporting**
+- **DAX Formulas & Measures**
+- **Stock Market Trend Analysis**
 
 ## Data Preparation
-1. **Extracted data from PDF reports into Excel** using Power Query.
-2. **Cleaned the data**:
-   - Removed unnecessary columns (e.g., Nominal Value, Shares Outstanding)
-   - Converted columns to appropriate data types
-   - Handled missing values using data imputation
-3. **Merged January & February data** into a unified table using XLOOKUP and TRIM.
-4. **Computed percentage changes** in market cap and closing prices.
-5. **Used Pivot Tables** for sector and company performance analysis.
+### Initial Dataset in Power Query (Before Cleaning)
+![Initial Dataset](path/to/initial_dataset.png)
+
+### Data Cleaning Process
+1. **Removed unnecessary columns** (e.g., Nominal Value, Shares Outstanding).
+2. **Formatted column headers** for consistency.
+3. **Converted data types** for accurate calculations.
+4. **Merged January & February datasets** using XLOOKUP and TRIM.
+5. **Computed percentage changes** in market capitalization.
+
+### Cleaned Dataset (Final View in Excel)
+![Cleaned Dataset](path/to/final_dataset.png)
+
+## Data Visualization
+### Sector Market Share (February 2025)
+![Sector Market Share](path/to/sector_market_share.png)
+
+### Company Performance Dashboard
+![Power BI Dashboard](path/to/dashboard_image.png)
 
 ## Key Findings
 ### Top Companies by Market Cap (February 2025)
-
 | Rank | Company | Market Cap (₦) |
 |------|---------|----------------|
 | 1    | AIRTEL Africa PLC | 8.11T |
@@ -37,9 +54,7 @@ This project analyzes the performance of Nigeria's stock market between January 
 | 4    | MTN Nigeria Communications PLC | 5.55T |
 | 5    | Seplat Energy PLC | 3.60T |
 
-
 ### Top Gainers (By % Market Cap Increase)
-
 | Rank | Company | % Change |
 |------|---------|-----------|
 | 1    | Smart Products Nigeria PLC | +65% |
@@ -48,9 +63,7 @@ This project analyzes the performance of Nigeria's stock market between January 
 | 4    | ETERNA PLC  | +52% |
 | 5    | HONEYWELL FLOUR MILL PLC  | +43% |
 
-
 ### Worst Performing Companies (By % Market Cap Decrease)
-
 | Rank | Company | % Change |
 |------|---------|-----------|
 | 1    | Union Dicon Salt Plc | -28% |
@@ -59,13 +72,7 @@ This project analyzes the performance of Nigeria's stock market between January 
 | 3    | University Press Plc | -19% |
 | 3    | DAAR Communications Plc | -18% |
 
-
-### Best Performing Sectors (By Market Cap Growth)
-
 ### Sector Performance (% Change in Market Cap)
-
-### Sector-wise % Change in Market Capitalization
-
 | Rank | Sector                   | % Change in Market Cap |
 |------|--------------------------|-----------------------|
 | 1    | Construction/Real Estate | 153%                  |
@@ -81,33 +88,6 @@ This project analyzes the performance of Nigeria's stock market between January 
 | 11   | Healthcare             | 2%                    |
 | 12   | Services               | 0%                    |
 | 13   | Natural Resources      | -12%                  |
-
-
-
-### Sector Market Share
-
-### Sector Market Capitalization (February 2025)
-
-| Rank | Sector                   | Market Cap (NGN)           | Market Share (%) |
-|------|--------------------------|---------------------------|------------------|
-| 1    | ICT                      | 13,747,454,685,716        | 21.6%            |
-| 2    | Industrial Goods         | 12,841,626,535,794        | 20.2%            |
-| 3    | Financial Services       | 11,912,958,308,314        | 18.7%            |
-| 4    | Consumer Goods           | 11,685,867,393,974        | 18.4%            |
-| 5    | Oil And Gas              | 7,006,242,470,848         | 11.0%            |
-| 6    | Utilities                | 5,611,750,000,000         | 8.8%             |
-| 7    | Services                 | 1,593,969,450,966         | 2.5%             |
-| 8    | Agriculture              | 1,342,886,063,397         | 2.1%             |
-| 9    | Conglomerates            | 805,474,222,312           | 1.3%             |
-| 10   | Construction/Real Estate | 434,830,693,834           | 0.7%             |
-| 11   | Healthcare               | 127,058,555,591           | 0.2%             |
-| 12   | Investment               | 66,382,892,840            | 0.1%             |
-| 13   | Natural Resources        | 25,441,434,199            | 0.0%             |
-
-
-
-**_Image Placeholder: Sector Market Share Pie Chart_**  
-`![Sector Market Share](path/to/sector_market_share.png)`
 
 ## DAX Measures Used
 ```DAX
@@ -135,17 +115,14 @@ SWITCH(
 MarketCap_Sort = SUM('TopSectors'[Sum of MarketCap(Feb)])
 ```
 
-## Conclusion
-- **Banking and Telecoms sectors** were the biggest market movers
-- **XYZ Corp had the highest % gain**, while **DEF Plc had the biggest loss**
-- **MTN Nigeria remained the dominant company** in terms of market capitalization
+## Insights
+- **Banking and Telecoms sectors** were the biggest market movers.
+- **Smart Products Nigeria PLC had the highest percentage gain**, while **Union Dicon Salt Plc suffered the largest loss**.
+- **MTN Nigeria remained the dominant company** in terms of market capitalization.
 
-## Future Improvements
-- Automate data extraction using **Python & PDF parsing libraries**
-- Enhance visualization using **Power BI & Tableau**
-- Expand analysis to **quarterly and yearly trends**
 
----
 
 ### Author
 **[Owadokun Oluwatobi Ezekiel]**  
+
+This report showcases my expertise in **data analysis, Power BI reporting, and stock market insights**. By leveraging advanced data wrangling techniques, I have transformed raw data into a professional and impactful stock market analysis. 🚀
