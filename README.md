@@ -3,12 +3,26 @@
 ## Introduction
 The Nigerian stock market serves as a dynamic mirror to the country’s evolving economic landscape and investor sentiment. In this project, I delve into the performance of the Nigerian Exchange (NGX) over the last trading days of January and February 2025. By combining robust data wrangling with insightful Power BI visualizations and DAX computations, I unravel the story behind market capitalization shifts, sector performance, and the fortunes of individual companies. This analysis not only quantifies change but also explains the possible catalysts behind these market movements.
 
-## Problem Statement
-For investors, policymakers, and analysts, understanding the intricacies of stock market movements is paramount. This study aims to:
-- Identify the **top companies by market capitalization** in February 2025.
-- Determine the **best and worst-performing stocks** based on percentage changes in market cap.
-- Analyze **sectoral performance** and compute each sector’s share of the total market cap.
-- Provide actionable insights and tell the underlying story of why these trends are emerging.
+# **Problem Statement: Decoding Nigeria’s Stock Market Movements**
+
+In the fast-paced world of finance, understanding **how and why stock markets move** is critical for **investors, policymakers, and analysts**. Beyond just numbers, every shift in market capitalization, sector dominance, or stock performance tells a **bigger story**—one that shapes investment strategies, economic policies, and business decisions.  
+
+This analysis goes beyond surface-level trends. It **unpacks the forces driving Nigeria’s stock market** in **February 2025**, answering key questions that matter to stakeholders:  
+
+- **Which companies dominate the market?** Who are the power players shaping the exchange, and how concentrated is the market?  
+- **Which stocks are thriving, and which are struggling?** What underlying factors are driving these shifts?  
+- **How are different sectors performing?** Where is investor money flowing, and what does it reveal about Nigeria’s economic landscape?  
+- **What hidden insights can we uncover?** Beyond just ranking stocks, what deeper market patterns and trends emerge?  
+
+Using **market capitalization as the benchmark**, this study provides:  
+
+✔ **A ranking of Nigeria’s largest companies**, showcasing the titans that control the market.  
+✔ **An analysis of the fastest-growing and worst-performing stocks**, explaining the catalysts behind their movements.  
+✔ **A deep dive into sectoral trends**, identifying industries on the rise and those losing investor confidence.  
+✔ **Actionable insights for decision-makers**, turning raw data into a strategic advantage.  
+
+By distilling complex stock market dynamics into a **clear, data-driven narrative**, this project delivers more than just analytics—it provides a **blueprint for smarter investing, informed policymaking, and deeper financial understanding**. 🚀📈  
+
 
 ## Tools Used
 - **Microsoft Excel**: For initial data cleaning, transformations, and pivot table analysis.
