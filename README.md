@@ -206,8 +206,7 @@ This dashboard isn’t just a collection of numbers—it’s a **story of how Ni
 | 12   | Investment               | 66,382,892,840      | 0.1%             |
 | 13   | Natural Resources        | 25,441,434,199      | 0.0%             |
 
-**_Image Placeholder: Sector Market Share Pie Chart_**  
-![Sector Market Share](images/sector_market_share.png)
+
 
 ## DAX Measures Used
 ```DAX
