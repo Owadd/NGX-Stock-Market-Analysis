@@ -26,7 +26,7 @@ For investors, policymakers, and analysts, understanding the intricacies of stoc
 ## Data Preparation
 
 ### Initial Dataset in Power Query (Before Cleaning)
-![Initial Dataset](images/initial_dataset.png)
+![Initial Dataset](initial_dataset.png)
 *The raw data extracted from the NGX PDF reports, featuring multiple tables and unstructured headers.*
 
 ### Data Cleaning Process
@@ -37,13 +37,13 @@ For investors, policymakers, and analysts, understanding the intricacies of stoc
 5. **Computed Percentage Changes**: Calculated changes in market capitalization and closing prices between the two periods.
 
 ### Cleaned Dataset (Final View in Excel)
-![Cleaned Dataset](images/cleaned_dataset.png)
+![Cleaned Dataset](cleaned_dataset.png)
 *The final cleaned dataset is streamlined for analysis, with 151 rows of high-quality data ready to power our insights.*
 
 ## Data Visualization
 
 ### Stock Market Analysis Dashboard
-![Power BI Dashboard](images/dashboard.jpg)
+![Power BI Dashboard](dashboard.jpg)
 *An interactive Power BI dashboard that visualizes the key trends in market capitalization, sector performance, and stock performance.*
 
 ## **Dashboard Breakdown: Telling the Story of Nigeria’s Stock Market**
