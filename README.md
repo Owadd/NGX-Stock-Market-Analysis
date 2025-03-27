@@ -284,4 +284,7 @@ MarketCap_Sort = SUM('TopSectors'[Sum of MarketCap(Feb)])
 ### Author
 **Owadokun Oluwatobi Ezekiel**  
 
-This report showcases my expertise in **data analysis, Power BI reporting, and stock market insights**. By leveraging advanced data wrangling techniques, I have transformed raw data into a professional and impactful stock market analysis. 🚀
+This project distills raw stock market data into a clear narrative of market trends, sector shifts, and investment flows. Every chart, every metric, and every insight is designed to cut through the noise—offering a precise, data-driven view of how the market moves and where opportunities lie.
+
+## **References**    
+- [NGX Data Library](https://ngxgroup.com/exchange/data/data-library/)
